@@ -1,0 +1,6 @@
+C:\Users\udzum\source\repos\Decanat\Model2\bin\Debug\Model2.dll
+C:\Users\udzum\source\repos\Decanat\Model2\bin\Debug\Model2.pdb
+C:\Users\udzum\source\repos\Decanat\Model2\obj\Debug\Model2.csproj.AssemblyReference.cache
+C:\Users\udzum\source\repos\Decanat\Model2\obj\Debug\Model2.csproj.CoreCompileInputs.cache
+C:\Users\udzum\source\repos\Decanat\Model2\obj\Debug\Model2.dll
+C:\Users\udzum\source\repos\Decanat\Model2\obj\Debug\Model2.pdb

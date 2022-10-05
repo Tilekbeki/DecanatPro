@@ -1,0 +1,15 @@
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\bin\Debug\net6.0\BusinesLogic.deps.json
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\bin\Debug\net6.0\BusinesLogic.dll
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\bin\Debug\net6.0\BusinesLogic.pdb
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\bin\Debug\net6.0\Model.dll
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\bin\Debug\net6.0\Model.pdb
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.csproj.AssemblyReference.cache
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.AssemblyInfoInputs.cache
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.AssemblyInfo.cs
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.csproj.CopyComplete
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.dll
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\refint\BusinesLogic.dll
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\BusinesLogic.pdb
+C:\Users\udzum\source\repos\Decanat\BusinesLogic\obj\Debug\net6.0\ref\BusinesLogic.dll

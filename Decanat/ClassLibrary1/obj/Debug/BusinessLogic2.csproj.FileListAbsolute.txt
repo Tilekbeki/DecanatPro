@@ -1,0 +1,9 @@
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\bin\Debug\Model2.dll
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\bin\Debug\Model2.pdb
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\obj\Debug\BusinessLogic2.csproj.AssemblyReference.cache
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\obj\Debug\BusinessLogic2.csproj.CoreCompileInputs.cache
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\obj\Debug\BusinessLogic2.csproj.CopyComplete
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+C:\Users\udzum\source\repos\Decanat\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
