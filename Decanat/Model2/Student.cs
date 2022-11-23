@@ -1,11 +1,12 @@
-﻿namespace Model2
-{
-    public interface IDomainObject
-    {
-        int Id { get; set; }
-    }
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-    public class Student : IDomainObject
+namespace Model2
+{
+    public class Student
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -14,12 +15,11 @@
 
         public Student(int id, string name, string group, string speciality)
         {
-            int Id = id;
+            Id = id;
             Name = name;
             Speciality = speciality;
             Group = group;
         }
-        public Student() { }
 
     }
 }
