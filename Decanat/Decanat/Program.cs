@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Remoting.Messaging;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using BusinessLogic2;
 
 namespace Decanat
 {
@@ -18,8 +13,7 @@ namespace Decanat
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Logic logic = new Logic();
-            Application.Run(new Form1(logic));
+            Application.Run(new Form1());
         }
     }
 }

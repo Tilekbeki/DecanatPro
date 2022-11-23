@@ -1,57 +1,64 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using DataAccessLayer;
 using Model2;
-using System.Data.SqlTypes;
-using System.ComponentModel;
-using System.Security.Cryptography;
+using System.Collections.Generic;
+
+
+
 
 namespace BusinessLogic2
 {
     public class Logic
     {
-        public List<Student> students = new List<Student>() { new Student(123, "пися", "ffgdf", "dfgdfg")};
+        /* public static List<Student> students { get; set; } = new List<Student>()
+         {
+             new Student(1, "Тибеклек", "Ки21-12б", "Исит"),
+             new Student(2, "Алишер", "Ки21-12б", "Исит"),
+             new Student(3, "Иван", "Пи21-12б", "Пи")
+         };*/
+
+        //<--- Подключение через Энтити --->
+        //public IRepository<Student> repository = new DapperRepository<Student>(); 
+
+        //<--- Подключение через Даппер --->
+        /*public IRepository<Student> repository = new DapperRepository<Student>();*///тип связи ассоциация 
+
+        IRepository<Student> repository;
+
+        public Logic(IRepository<Student> repositoryS)
+        {
+            repository = repositoryS;
+        }
 
         public void AddStudent(int id, string name, string speciality, string group)
         {
-            students.Add(new Student(id,name, speciality, group));
+            repository.Create(new Student(id, name, speciality, group));//работает
+            repository.Save();
 
-            /*for (int i = 0; i < students.Count; i++)
-            {
-                if (Convert.ToInt32(students[i].Id) != Convert.ToInt32(id))
-                {
-                    students.Add(new Student(id, name, speciality, group));
-                }
-            }*/
 
-            /*for (int i = 0; i <students.Count;i++)
-            {
-                if (students[i].Id == id)
-                {
-                    
-                }
-                else
-                {
-                    students.Add(new Student(id, name, speciality, group));
-                }
-            }*/
         }
         public void DeleteStudent(int id)
         {
-            //students.RemoveAt(id);
-            for (int i = 0; i < students.Count; i++)
-            {
-                if (Convert.ToInt32(students[i].Id) == id)
-                {
-                    students.Remove(students[i]);
-                }
-            }
+            repository.Delete(id);
+            repository.Save();
         }
 
-        public List<string[]> GetAll() { return students.Select(s => new string[] { s.Id.ToString(),s.Name,s.Speciality,s.Group}).ToList();}
+        public List<string> GetAll()
+        {
+            List<string> studentsList = new List<string>();
+
+            IEnumerable<Student> students = repository.GetAll();
+
+            foreach (Student student in students)
+            {
+                int id = student.Id;
+                string name = student.Name;
+                string group = student.Group;
+                string speciality = student.Speciality;
+                studentsList.Add($"{id} {name} {speciality} {group}");
+            }
+
+            return studentsList;
+        }
 
 
 
